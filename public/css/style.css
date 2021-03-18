@@ -656,6 +656,111 @@ header .intro-text {
     padding-top: 20px;
 }
 
+
+
+/*Caracteristique*/
+
+
+#caract {
+    height: 100vh;
+    padding: 100px 0;
+    background-color: #FFFFFF;
+}
+
+#caract h3 {
+    font-size: 22px;
+    margin: 0 0 20px 0;
+}
+
+#caract h2 {
+    position: relative;
+    /*width: 10%;*/
+    /*margin-bottom: 15px;*/
+    /*padding-bottom: 15px;*/
+}
+
+.groupePoints{
+    display: flex;
+}
+
+.point{
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+}
+
+.point + .point{
+    margin-left: 10px;
+}
+
+#caract .access  {
+    position: relative;
+    content: "";
+    font-size: 25px;
+    background: linear-gradient(to right, #F29A77 0%, #F29A77 100%);
+    height: 2px;
+    width: 230px;
+    bottom: 0;
+    left: 0;
+}
+
+#caract .caract-text li {
+    margin-bottom: 6px;
+    margin-left: 6px;
+    list-style: none;
+    padding: 0;
+}
+
+#caract .caract-text li:before {
+    content: '\f00c';
+    font-family: 'FontAwesome';
+    color: #F29A77;
+    font-size: 11px;
+    font-weight: 300;
+    padding-right: 8px;
+}
+
+#caract img {
+    left: 100%;
+    display: block;
+    margin: auto;
+    /*margin-top: px;*/
+    background: #fff;
+    border-right: 0;
+}
+
+#caract p {
+    line-height: 24px;
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+#caract Card {
+    line-height: 24px;
+    margin: 30px 0;
+    padding-top: 20px;
+}
+
+h2.faq::after {
+  font-family: Poppins, serif;
+  position: absolute;
+  content: "";
+  background: linear-gradient(to right, #F29A77 0%, #F29A77 100%);
+  height: 2px;
+  width: 40px;
+  bottom: 0;
+  left: 3%;
+}
+
+h2.faq {
+  text-transform: capitalize;
+}
+
+div.questions{
+  margin : 40px 0px 40px 0px;
+}
+
+
 .btn-red {
     font-size: 150%;
     padding: 10px 40px;
@@ -843,8 +948,9 @@ header .intro-text {
 /* Contact Section */
 #contact {
     padding: 100px 0 60px 0;
-    background: linear-gradient(to right, #F29A77 0%, #F29A77 100%);
-    color: rgba(255, 255, 255, .75);
+    background: #FFF8F5;
+    color: rgba(0, 0, 0, .75);
+
 }
 
 #contact .section-title {
@@ -865,19 +971,30 @@ header .intro-text {
 #contact .section-title h2::after {
     position: absolute;
     content: "";
-    background: rgba(255, 255, 255, .3);
+    background: rgba(0,0,0, 1);
     height: 4px;
     width: 60px;
     bottom: 0;
     left: 30px;
 }
 
+#contact a {
+    color: black;
+    cursor: pointer;
+
+}
+#contact a:hover{
+    color: black;
+    text-decoration: underline;
+
+}
+
 #contact h3 {
-    color: #fff;
+    color: #000000;
     margin-top: 80px;
     margin-bottom: 25px;
     padding-bottom: 20px;
-    font-weight: 400;
+    font-weight: bold;
 }
 
 #contact form {
@@ -953,7 +1070,7 @@ label {
 }
 
 #contact .contact-item span {
-    color: rgba(255, 255, 255, 1);
+    color: rgba(0,0,0, 1);;
     margin-bottom: 10px;
     display: block;
 }
@@ -963,7 +1080,7 @@ label {
 }
 
 #contact .social {
-    border-top: 1px solid rgba(255, 255, 255, 0.15);
+    border-top: 1px solid rgba(0,0,0, 1);;
     padding-top: 50px;
     margin-top: 50px;
     text-align: center;
@@ -980,7 +1097,7 @@ label {
     height: 48px;
     padding: 12px 0;
     border: 2px solid #fff;
-    color: #fff;
+    color: #000000;
     border-radius: 50%;
     transition: all 0.3s;
 }
@@ -992,7 +1109,7 @@ label {
 
 /* Footer Section*/
 #footer {
-    background: #f6f6f6;
+    background: #ffffff;
     padding: 30px 0;
 }
 
