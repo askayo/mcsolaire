@@ -4277,8 +4277,10 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;
+  background-image: url("img/logo.svg");
 }
 .navbar-brand:hover,
+
 .navbar-brand:focus {
   text-decoration: none;
 }

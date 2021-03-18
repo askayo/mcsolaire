@@ -1,23 +1,41 @@
+import React, {useCallback, useEffect, useState} from "react";
+
+
+
 export const Features = (props) => {
-  return (
-    <div id='features' className='text-center'>
-      <div className='container'>
-        <div className='col-md-10 col-md-offset-1 section-title'>
-          <h2>Features</h2>
+
+    useEffect(() => {
+
+    },[])
+
+
+    const logo = [  'img/scroll-images/1mirroir.png','img/scroll-images/2cadre-bois.png', 'img/scroll-images/3boitier.png', 'img/scroll-images/4panneau-solaire.png',
+    ]
+
+    return (
+
+
+        <div className="abcd2" style={{ height: '100vh', width: '100%', overflow: 'hidden'}}  >
+            <div className="typewriter">
+                <h1>&nbsp;Composants</h1>
+            </div>
+
+            <img className={'img1'} src={logo[0]} />
+
+
+            <img className={'img2'} src={logo[1]} />
+
+
+            <img className={'img3'} src={logo[2]} />
+
+
+            <img className={'img4'} src={logo[3]} />
+
+
         </div>
-        <div className='row'>
-          {props.data
-            ? props.data.map((d, i) => (
-                <div key={`${d.title}-${i}`} className='col-xs-6 col-md-3'>
-                  {' '}
-                  <i className={d.icon}></i>
-                  <h3>{d.title}</h3>
-                  <p>{d.text}</p>
-                </div>
-              ))
-            : 'Loading...'}
-        </div>
-      </div>
-    </div>
+
+
+
+
   )
 }

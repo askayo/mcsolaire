@@ -1,12 +1,12 @@
 {
     "Header": {
-
-        "title": "We are a Landing Page",
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
-
+        "subtitle": "Optez pour des mobiliers responsables",
+        "title": "MC Solaire",
+        "paragraph": "Mirroir Chargeur Solaire",
+        "price": "À partir de 119€"
     },
     "About": {
-        "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "paragraph": "Le mode de vie durable fait désormais partie de notre vie quotidienne. Certains adoptent des pratiques pour minimiser leur empreinte carbone, que ce soit en compostant des déchets alimentaires ou en utilisant moins de plastiques à usage unique, tandis que d'autres vont encore plus loin et tentent de trouver comment tirer parti de l'énergie solaire dans un appartement.",
         "Why": [
             "Lorem ipsum dolor",
             "Tempor incididunt",
