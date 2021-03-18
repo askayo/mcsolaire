@@ -13,6 +13,7 @@ import SmoothScroll from 'smooth-scroll'
 import {Produit} from "./components/produit";
 import {ModeEmploi} from "./components/ModeEmploi";
 import {Faq} from "./components/faq";
+import {Caracteristiques} from "./components/caracteristiques";
 
 export const scroll = new SmoothScroll('a[href*="#"]', {
     speed: 1000,
@@ -24,8 +25,8 @@ const App = () => {
 
     function verifScroll(scrollY){
 
-        if(scrollY < 500) return 0 ;
-        return (scrollY-700)/1200;
+        if(scrollY < 3000) return 0 ;
+        return (scrollY-3000)/1400;
     }
 
     useEffect(() => {
@@ -50,20 +51,21 @@ const App = () => {
         <div>
             <Navigation/>
             <Header data={landingPageData.Header}/>
-            <ModeEmploi data={landingPageData.Services}/>
             <About data={landingPageData.About}/>
             <Produit data={landingPageData.About}/>
-            <Services data={landingPageData.Services}/>
             <Caracteristiques/>
-            <Gallery/>
-            <Faq />
-            {/*<Features data={landingPageData.Features}/>*/}
+            {/*<Gallery/>*/}
+            <Features data={landingPageData.Features}/>
 
-            {/*<div style={{height: '80vh'}}></div>*/}
-            {/*<div style={{height: '110vh'}} id="features"></div>*/}
+            <div style={{height: '70vh'}}  id="features"></div>
+            <div style={{height: '90vh'}} ></div>
 
-            <Testimonials data={landingPageData.Testimonials}/>
+            <ModeEmploi data={landingPageData.Services}/>
+
             <Team data={landingPageData.Team}/>
+
+            <Faq />
+
 
             <Contact data={landingPageData.Contact}/>
 

@@ -55,7 +55,7 @@ body, html {
     font-weight: lighter;
 }
 h2.title span {
-    background-color: #F29A77;
+    background-color: rgbA(242 ,154 ,119 ,0.8);
     font-weight: 700;
 }
 .discover-button {
@@ -352,7 +352,7 @@ hr {
         transform: translateX(30%);
         opacity: 1;
     }
-    80% {
+    90% {
         opacity: 1;
     }
 	to {
@@ -370,7 +370,7 @@ hr {
 		transform: translateX(30%);
 		opacity: 1;
 	}
-	80% {
+	90% {
 		opacity: 1;
 	}
 	to {
@@ -387,7 +387,7 @@ hr {
 		transform: translateX(30%);
 		opacity: 1;
 	}
-	80% {
+	90% {
 		opacity: 1;
 	}
 	to {
@@ -400,7 +400,7 @@ hr {
 	1% {
 		opacity: 0;
 	}
-	70% {
+	60% {
 		transform: translateX(30%);
 		opacity: 1;
 	}
@@ -638,6 +638,8 @@ header .intro-text {
     height: 100vh;
     padding: 100px 0;
     background-color: #FFFFFF;
+    position: relative;
+    z-index: 500;
 }
 
 #produit h3 {
@@ -980,25 +982,25 @@ div.questions{
     color: #666;
 }
 
-/* Team Section */
-#team {
+/* inspiration Section */
+#inspiration {
     padding: 100px 0;
 }
 
-#team h4 {
+#inspiration h4 {
     margin: 5px 0;
 }
 
-#team .team-img {
-    width: 240px;
+#inspiration .inspiration-img {
+    width: 400px;
 }
 
-#team .thumbnail {
+#inspiration .thumbnail {
     background: transparent;
     border: 0;
 }
 
-#team .thumbnail .caption {
+#inspiration .thumbnail .caption {
     padding: 10px 0 0 0;
     color: #888;
 }

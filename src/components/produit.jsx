@@ -9,7 +9,7 @@ import ToggleButton from "@material-ui/lab/ToggleButton";
 
 
 export const Produit = (props) => {
-    const [alignment, setAlignment] = React.useState('left');
+    const [alignment, setAlignment] = React.useState('center');
 
     const handleAlignment = (event, newAlignment) => {
         setAlignment(newAlignment);
